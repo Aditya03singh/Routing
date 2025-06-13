@@ -38,15 +38,15 @@ watch([make, price], ()=>{
 <template>
   <div class="container">
       <h1>Our Cars</h1>
-      <label for="">Company:</label>
-      <select @change="handleChange" v-model="make">
+      <label for="Company">Company:</label>
+      <select id="Company" @change="handleChange" v-model="make">
         <option value="All">All</option>
         <option value="Chevrolet">Chevy</option>
         <option value="Porsche">Porsche</option>
         <option value="Audi">Audi</option>
       </select>
-      <label for="">Price:</label>
-      <select @change="handleChange" v-model="price">
+      <label for="Price">Price:</label>
+      <select id="Price" @change="handleChange" v-model="price">
         <option value="any">Any</option>
         <option value="htl">High to Low</option>
         <option value="lth">Low to High</option>
