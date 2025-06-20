@@ -30,7 +30,7 @@ import ChatBot from './views/ChatBot.vue'
  <script setup>
  import { RouterLink, RouterView } from 'vue-router'
  import { ref } from 'vue'
- import ChatBot from './views/ChatBot.vue' // Adjust path if needed
+
  
  // To control the chatbot visibility
  const open = ref(false)
